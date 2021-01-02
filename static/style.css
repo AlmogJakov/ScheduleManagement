@@ -1,0 +1,393 @@
+/* =======================================================
+*
+* 	Template Style 
+*
+* ======================================================= */
+
+body {
+    font-family: "Lato", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+    background: #fff;
+}
+
+#page {
+    position: relative;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+a {
+    color: #09C6AB;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6, figure {
+    color: #000;
+    font-family: "Lato", Arial, sans-serif;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+
+.gtco-container {
+    max-width: 1100px;
+    position: relative;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.gtco-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 1001;
+}
+
+.gtco-nav #gtco-logo {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.gtco-nav #gtco-logo em {
+    color: #09C6AB;
+}
+
+.gtco-nav a {
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.gtco-nav ul {
+    padding: 0;
+    margin: 2px 0 0 0;
+}
+
+.gtco-nav ul li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline;
+}
+
+.gtco-nav ul li a {
+    font-size: 16px;
+    padding: 30px 10px;
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+#gtco-header {
+    background: #4d4d4d;
+}
+
+#gtco-header .mt-text {
+    margin-top: 7em;
+    margin-bottom: 3em;
+}
+
+#gtco-header h1, #gtco-header h2 {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#gtco-header h1 {
+    margin-bottom: 0px;
+    font-size: 59px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+#gtco-header h2 {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+#gtco-header .form-wrap {
+    border-top: 10px solid #09C6AB;
+    position: relative;
+    width: 100%;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.15);
+}
+
+#gtco-header .form-wrap .tab-content {
+    z-index: 10;
+    position: relative;
+    clear: both;
+    background: #fff;
+    padding: 30px;
+}
+
+#gtco-header .form-wrap .tab-content .tab-content-inner {
+    display: none;
+}
+
+#gtco-header .form-wrap .tab-content .tab-content-inner.active {
+    display: block;
+}
+
+#gtco-header, #gtco-counter, .gtco-bg {
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.gtco-cover {
+    height: 900px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.gtco-cover .overlay {
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.gtco-cover > .gtco-container {
+    position: relative;
+    z-index: 10;
+}
+
+.gtco-social-icons {
+    margin: 0;
+    padding: 0;
+}
+
+.gtco-social-icons li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1; *display: inline;
+}
+
+.gtco-social-icons li a {
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1; *display: inline;
+    color: #09C6AB;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.gtco-social-icons li a i {
+    font-size: 20px;
+}
+
+form label {
+    font-weight: normal !important;
+}
+
+#gtco-features, #gtco-features-2, #gtco-products, #gtco-services, #gtco-subscribe, #gtco-footer, .gtco-section {
+    padding: 7em 0;
+    clear: both;
+    position: relative;
+}
+
+.gtco-heading {
+    margin-bottom: 5em;
+}
+
+.gtco-heading p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: gray;
+}
+
+#gtco-footer .gtco-widget {
+    margin-bottom: 30px;
+}
+
+#gtco-footer .gtco-widget h3 {
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#gtco-footer .gtco-widget .gtco-quick-contact {
+    padding: 0;
+    margin: 0;
+}
+
+#gtco-footer .gtco-widget .gtco-quick-contact li {
+    padding: 0;
+    margin: 0 0 10px 0;
+    list-style: none;
+}
+
+#gtco-footer .copyright {
+    color: #b3b3b3;
+    padding-top: 3em;
+    margin-top: 3em;
+    border-top: 1px solid #f2f2f2;
+}
+
+#gtco-footer .copyright .block {
+    display: block;
+}
+
+#gtco-offcanvas {
+    position: absolute;
+    z-index: 1901;
+    width: 270px;
+    background: black;
+    top: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 45px 40px 40px 40px;
+    overflow-y: auto;
+    display: none;
+    -moz-transform: translateX(270px);
+    -webkit-transform: translateX(270px);
+    -ms-transform: translateX(270px);
+    -o-transform: translateX(270px);
+    transform: translateX(270px);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.gototop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.gototop a {
+    width: 50px;
+    height: 50px;
+    display: table;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.gototop a i {
+    height: 50px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.gtco-nav-toggle {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.gtco-nav-toggle {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    z-index: 21;
+    padding: 6px 0 0 0;
+    display: block;
+    margin: 0 auto;
+    display: none;
+    height: 44px;
+    width: 44px;
+    z-index: 2001;
+    border-bottom: none !important;
+}
+
+.btn {
+    margin-right: 4px;
+    margin-bottom: 4px;
+    font-family: "Lato", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    padding: 8px 30px;
+}
+
+.btn-primary {
+    background: #09C6AB;
+    color: #fff;
+    border: 2px solid #09C6AB !important;
+}
+
+.form-control {
+    box-shadow: none;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    height: 46px;
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row-mt-15em {
+    margin-top: 15em;
+}
+
+.gtco-loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(./assets/loader.gif) center no-repeat #fff;
+}
+
+.js .animate-box {
+    opacity: 0;
+}
+
