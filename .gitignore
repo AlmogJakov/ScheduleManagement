@@ -1,6 +1,9 @@
 /__pycache__
+/__pycache__/
 /Include
+/Include/
 /run_server.bat
 /pyvenv.cfg
 /Lib
+/Lib/
 /Scripts
