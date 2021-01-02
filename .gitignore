@@ -131,5 +131,7 @@ dmypy.json
 /Lib
 /Include
 /Scripts
+/pyvenv.cfg
 pyvenv.cfg
+/run_server.bat
 run_server.bat
